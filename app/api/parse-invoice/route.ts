@@ -38,7 +38,7 @@ Replace placeholder numbers with actual values. If not found use empty string or
     }
 
     const response = await client.messages.create({
-      model: 'claude-sonnet-4-20250514',
+      model: 'claude-sonnet-4-5',
       max_tokens: 1000,
       messages
     })
