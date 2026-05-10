@@ -30,7 +30,7 @@ Format:
 [{"id":"the_exact_id","currentPrice":1150},{"id":"another_id","currentPrice":820}]`
 
     const response = await client.messages.create({
-      model: 'claude-sonnet-4-20250514',
+      model: 'claude-sonnet-4-5',
       max_tokens: 1000,
       messages: [{ role: 'user', content: prompt }]
     })
